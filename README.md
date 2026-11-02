@@ -1,19 +1,19 @@
 # Practice Files
 
-Small practice programs I write while learning programming concepts — one concept per file, kept simple and runnable.
+My scratchpad. When I learn a new concept I write a small program for it here first, one concept per file, nothing complicated. If something grows into a real project it moves to its own repo — this one stays as the practice ground.
 
-## Contents
+## What's in here
 
 ### PasswordChecker.cpp (C++)
 
-A console program that validates a password against basic strength rules:
+Checks if a password is strong enough or not. The rules are simple:
 
-- Minimum 8 characters
+- At least 8 characters
 - At least one uppercase letter
 - At least one lowercase letter
 - At least one digit
 
-It prints a specific error message for the first rule that fails, or confirms the password is valid.
+It tells you the first rule your password fails, or says it's valid.
 
 **Run it:**
 
@@ -22,10 +22,6 @@ g++ PasswordChecker.cpp -o password_checker
 ./password_checker
 ```
 
-## Purpose
+More files will land here as I practise.
 
-This repo is my scratchpad for fundamentals — new files land here as I practise new concepts, before they grow into full projects in my other repos.
-
-## Author
-
-**Pawan Kumar** — [@pawanriko](https://github.com/pawanriko)
+— **Pawan Kumar** · [@pawanriko](https://github.com/pawanriko)
