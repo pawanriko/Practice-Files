@@ -1,6 +1,22 @@
 # Practice Files
 
+![Top language](https://img.shields.io/github/languages/top/pawanriko/Practice-Files)
+![Stars](https://img.shields.io/github/stars/pawanriko/Practice-Files?style=social)
+
+[![My Skills](https://skillicons.dev/icons?i=cpp,git,github)](https://skillicons.dev)
+
 My scratchpad. When I learn a new concept I write a small program for it here first, one concept per file, nothing complicated. If something grows into a real project it moves to its own repo — this one stays as the practice ground.
+
+## How I practise
+
+```mermaid
+flowchart LR
+    Concept[New concept] --> Small[Small program<br/>one concept per file]
+    Small --> Run[Compile + run it]
+    Run --> Grows{Does it grow?}
+    Grows -->|Yes| Repo[Moves to its own repo]
+    Grows -->|No| Stays[Stays here as practice]
+```
 
 ## What's in here
 
